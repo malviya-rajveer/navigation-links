@@ -75,7 +75,7 @@ export function ShutterText({ title }: { title: string }) {
           setHover(false);
         }, 100)
       }
-      className="pointer relative z-50 mx-auto flex w-full justify-between overflow-hidden py-2 md:w-2xl"
+      className="relative z-50 mx-auto flex w-full cursor-pointer justify-between overflow-hidden py-2 md:w-2xl"
     >
       <div ref={scope} className="font- flex flex-wrap text-xl whitespace-pre">
         {chars.map((char, i) => (
